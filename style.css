@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+
+h2 {
+    color: #333;
+}
+
+button {
+    display: block;
+    margin: 20px auto;   
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#userCard {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#userCard img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#userCard h3 {
+    margin: 10px 0 5px 0;
+}
+
+#userCard p {
+    margin: 5px 0;
+    color: #555;
+}
